@@ -30,7 +30,9 @@ html {
 }
 
 .heading {
-    color: dimgray;
+    margin-top: 5rem;
+    color: #333;
+    text-decoration: underline;
 }
 
 .container {
@@ -40,6 +42,16 @@ html {
 }
 
 .about-container {
+    width: 30%;
     display: flex;
     flex-direction: column;
+}
+
+.info {
+    margin-top: 1rem;
+}
+
+.info > div:first-child {
+    font-weight: 600; /* makes "Hobbies" bold */
+    font-size: 1.2rem; /* optional, makes it bigger */
 }
