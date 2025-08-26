@@ -1,6 +1,12 @@
 body {
     background-image: url("https://raw.githubusercontent.com/20154746/20154746.github.io/refs/heads/main/me.png");
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+html {
+    height: 100%;
 }
 
 .rubik-font {
@@ -15,12 +21,25 @@ body {
 }
 
 .title {
-    font-size: xx-large;
-    font-weight: bold;
+    font-size: 3rem;
+    font-weight: bolder;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px black; /* true outline */
+}
+
+.heading {
+    color: dimgray;
 }
 
 .container {
     margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container {
     display: flex;
     flex-direction: column;
 }
