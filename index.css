@@ -10,7 +10,17 @@ body {
   color: white;
 }
 
+.subtitle {
+    font-size: x-small;
+}
+
+.title {
+    font-size: xx-large;
+}
+
 .container {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
